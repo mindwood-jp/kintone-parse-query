@@ -1,7 +1,10 @@
 # 概要
-kintone のクエリ文字列をパースする。
+kintone のURLクエリ文字列をJSONオブジェクトに変換します。
+
+https://cybozu.dev/ja/kintone/docs/overview/query/
 
 # 使い方
+オブジェクトから、フィールド名・演算子・値を簡単に取得できます。
 
 ```js
 let q = kintone.app.getQueryCondition();
